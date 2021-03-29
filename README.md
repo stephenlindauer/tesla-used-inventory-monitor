@@ -10,7 +10,9 @@ node search.js
 
 
 ## Results
-Shows when new vehicles are found:
+Regularly hits the api per the defined `POLLING_INTERVAL_MIN` (use responsibly, don't spam) and retuns new vehicles and price changes.
+
+**Shows when new vehicles are found:**
 ```
 Found new vehicle: 2017 100D Ludicrous Performance All-Wheel Drive
 	 https://www.tesla.com/used/<redacted>
@@ -29,7 +31,7 @@ Found new vehicle: 2017 100D Ludicrous Performance All-Wheel Drive
 	 has HW3 installed? yes
 ```
 
-Price updates:
+**Price updates:**
 ```
 Price change: 2017 100D Ludicrous Performance All-Wheel Drive
 	 https://www.tesla.com/used/<redacted>
