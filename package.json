@@ -1,0 +1,22 @@
+{
+  "name": "tesla-used-inventory-monitor",
+  "version": "1.0.0",
+  "description": "Hits an internal Tesla api to search for existing used inventory and prints to console every time there are new vehicles or price changes for your search parameters",
+  "main": "search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenlindauer/tesla-used-inventory-monitor.git"
+  },
+  "author": "Stephen Lindauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephenlindauer/tesla-used-inventory-monitor/issues"
+  },
+  "homepage": "https://github.com/stephenlindauer/tesla-used-inventory-monitor#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
