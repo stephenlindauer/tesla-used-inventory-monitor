@@ -4,6 +4,8 @@ Hits an internal Tesla api to search for existing used inventory and prints to c
 
 ## Setup & Run instructions
 ```
+git clone git@github.com:stephenlindauer/tesla-used-inventory-monitor.git
+cd tesla-used-inventory-monitor
 npm install
 node search.js
 ```
